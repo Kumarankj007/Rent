@@ -1,0 +1,128 @@
+.nav-item .nav-link {
+  width: 150px;
+  text-align: center;
+}
+
+.search {
+  width: 500px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.home {
+  padding: 350px 200px;
+  margin-bottom: 100px;
+  background-image: url('./assets/1.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width:700px) {
+  .home {
+    padding: 300px 50px;
+  }
+
+  .row7 {
+    padding: 0 80px;
+  }
+
+  .f1 {
+    margin-bottom: 100px;
+  }
+}
+
+.cir {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 1px;
+  margin: 30px 40% 10px;
+}
+
+.cir div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.row3 li {
+  list-style: none;
+}
+
+.row3 li i {
+  padding-right: 10px;
+  color: blue;
+}
+
+.smln1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.smln {
+  width: 40px;
+  height: 2px;
+  border: 2px solid blue;
+}
+
+.row6 a {
+  text-decoration: none;
+}
+
+.row7 {
+  padding-top: 100px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.con button {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.footer {
+  background-image: url('./assets/5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa1 {
+  float: right;
+  margin-top: 230px;
+}
+
+.fa {
+  margin-right: 20px;
+}
+
+.bot {
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bot button {
+  margin: -5px 20px;
+  position: absolute;
+  right: 0;
+  border-radius: 6px;
+  padding: 3px 20px;
+  background: orange;
+  border: none;
+}
